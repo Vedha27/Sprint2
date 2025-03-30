@@ -1,0 +1,1028 @@
+/* Header Start */
+* {
+    background-image: url(image/Picsart.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header
+{
+height: 320px;
+width: 1342px;
+margin-left: auto;
+margin-right: auto;
+position: absolute;
+top:0%;
+left: 0%;
+bottom: 0%;
+}
+.h
+{
+height: 230px;
+width: 1342px;
+display: flex;
+}
+.logo
+{
+height: 230px;
+width: 380px;
+justify-content: center;
+}
+.title
+{
+    height: 230px;
+    width: 930px;
+    font-size: 56px;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 100px;
+    background: none;
+}
+html {
+    scroll-behavior: smooth;
+    transition: all 0.5s ease;
+}
+.menu ul li
+{
+   display: inline-flex;
+   text-decoration: none;
+   background: none;
+}
+.clic
+{
+    padding: 8px 15px;
+    border-radius: 20px;
+    border-color:darkred;
+    background: none;
+    background-color:antiquewhite;
+    color: darkred;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Copperplate Gothic;
+    transition: all 0.5s ease;
+    font-size: 18px;
+}
+.clic:hover
+{
+    letter-spacing: 3px;
+    box-shadow: black 0px 7px 29px 0px;
+    background-color: darkred;
+    border-color: #ffffff;
+    color: gold;
+}
+.clic:active
+{
+    letter-spacing: 3px;
+    box-shadow: darkred 0px 7px 29px 0px;
+    background-color: midnightblue;
+    border-color: #ffffff;
+    color: gold;
+    transform: translateY(10px);
+}
+.menu 
+{    
+    border:8px solid;
+    border-color: darkred;
+    height: 70px;
+    width: 1326px;
+    text-align: center;
+    word-spacing: 20px;
+    text-transform: uppercase;
+    background-image: url(image/alana-lee-portrait-photography-gold-painted-digital-background-example-2.webp);
+}
+
+
+/* Header  Finish */
+
+/* Body Start */
+
+
+.body
+{
+    height:1900px;
+    width:1342px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 316px;
+    background-color: midnightblue;
+    background-image: url(image/Picsart.jpg);
+    color:darkred;
+    font-family: Copperplate Gothic;
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+}
+.body h1,h2
+{
+    font-size: 22px;
+    line-height: 35px;
+}
+.pic1 
+{
+    height: 300px;
+    width: 1250px;
+    margin: auto;
+    margin-bottom: 40px;
+    background: none;
+    background-image: url(image/k-12807.jpg);
+    border-radius: 40px;
+}
+.pic1 img
+{
+    float: left;
+    margin: 30px;
+    box-shadow: 3px 12px 20px 10px black;
+    margin-left: 200px;
+    border-radius: 40px;
+}
+.pic1 span
+{
+    text-align: center;
+    background: none;
+    position: relative;
+    top: 120px;
+    right: 20px;
+    text-shadow: 4px 7px 3px  black;
+    font-size: 40px;
+    color: white;
+}
+.pic1 h4
+{
+    text-align: center;
+    background: none;
+    position: relative;
+    top: 95px;
+    right: 122px;
+    font-size: 24px;
+    text-shadow: 4px 7px 3px  black;
+    color: white;
+}
+
+.pic2 
+{
+    height: 300px;
+    width: 1250px;
+    margin: auto;
+    margin-bottom: 40px;
+    background-image: url(image/il_fullxfull.2173089921_7vam.avif);
+    border-radius: 40px;
+}
+.pic2 img
+{
+    float: left;
+    margin: 30px;
+    box-shadow: 3px 12px 20px 10px black;
+    margin-left: 200px;
+    border-radius: 40px;
+}
+.pic2 span
+{
+    text-align: center;
+    background: none;
+    position: relative;
+    top: 120px;
+    right: 20px;
+    text-shadow: 4px 7px 3px  black;
+    font-size: 40px;
+    color: white;
+}
+.pic2 h4
+{
+    text-align: center;
+    background: none;
+    position: relative;
+    top: 95px;
+    right: 122px;
+    font-size: 24px;
+    text-shadow: 4px 7px 3px  black;
+    color: white;
+}
+
+.pic3 
+{
+    height: 300px;
+    width: 1250px;
+    margin: auto;
+    margin-bottom: 40px;
+    background-image: url(image/silv.jpg);
+    border-radius: 40px;
+}
+.pic3 img
+{
+    float: left;
+    margin: 30px;
+    box-shadow: 3px 12px 20px 10px black;
+    margin-left: 200px;
+    border-radius: 40px;
+}
+.pic3 span
+{
+    text-align: center;
+    background: none;
+    position: relative;
+    top: 120px;
+    right: 20px;
+    text-shadow: 4px 6px 2px black;
+    font-size: 40px;
+    color:snow;
+    font-weight: bold;
+}
+.pic3 h4
+{
+    text-align: center;
+    background: none;
+    position: relative;
+    top: 95px;
+    right: 116px;
+    font-size: 24px;
+    text-shadow: 4px 4px 2px black;
+    color: snow;
+}
+
+.pic4 
+{
+    height: 300px;
+    width: 1250px;
+    margin: auto;
+    margin-bottom: 40px;
+    background: none;
+    background-image: url(image/black.jpeg);
+    border-radius: 40px;
+}
+.pic4 img
+{
+    float: left;
+    margin: 30px;
+    box-shadow: 3px 12px 20px 10px black;
+    margin-left: 200px;
+    border-radius: 40px;
+}
+.pic4 span
+{
+    text-align: center;
+    background: none;
+    position: relative;
+    top: 120px;
+    right: 20px;
+    text-shadow: 4px 7px 3px  black;
+    font-size: 40px;
+    color: white;
+}
+.pic4 h4
+{
+    text-align: center;
+    background: none;
+    position: relative;
+    top: 95px;
+    right: 102px;
+    font-size: 24px;
+    text-shadow: 4px 7px 3px  black;
+    color: white;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.pic1,.pic2,.pic3,.pic4,.abt img,.abt span,.abt div,
+.fin,.bod h1,.bod h2,.confirm span,
+.confirm table
+{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.fin
+{
+    position: relative;
+    font-size: 22px;
+    font-family: Copperplate Gothic;
+    background: none;
+    color: darkred;
+    font-weight: bold;
+    top:30px;
+}
+
+
+/* Body Finish */
+
+/* Footer Start */
+
+
+.foot
+{
+    height: 200px;
+    width: 1326px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4100px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    background-image: url(image/alana-lee-portrait-photography-gold-painted-digital-background-example-2.webp);
+    border: 8px solid;
+    border-color: darkred;
+    text-align: center;
+}
+.c
+{
+    font-size: 18px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background: transparent;
+    padding-top: 10px;
+}
+.ico
+{
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    background: none;
+}
+.bton1,.bton2,.bton3,.bton4
+{
+padding: 3px 6px;
+border-radius: 20px;
+border-color: darkred;
+background: none;
+background-color: white;
+transition: all 0.5s ease;
+}
+.bton1:hover,.bton2:hover,.bton3:hover,.bton4:hover
+{
+    box-shadow: darkred 0px 7px 29px 0px;
+    background-color: none;
+    border-color: #ffffff;
+}
+.bton1:active,.bton2:active,.bton3:active,.bton4:active
+{
+box-shadow: darkred 0px 7px 29px 0px;
+background-color: none;
+border-color: #ffffff;
+transform: translateY(10px);
+}
+
+
+/* Footer Finish */
+
+/* About Start */
+
+
+.abt
+{
+height: 650px;
+width: 1342px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2200px;
+font-family: Copperplate Gothic;
+font-weight: bold;
+color: darkred;
+justify-content: space-evenly;
+position: absolute;
+top: 0%;
+left: 0%;
+bottom: 0%;
+}
+
+
+/* About Finish */
+
+/* Booking Start */
+
+
+.bod
+{
+    height: 1250px; 
+    width: 1342px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2850px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    padding-top: 10px;
+    background-image: url(image/Picsart.jpg);
+}
+.bod h1
+{
+    margin:30px;
+    font-size: 36px;
+    color: darkred;
+    font-family: Copperplate Gothic;
+    background: none;
+}
+.bod h2
+{
+    margin:30px;
+    font-size: 30px;
+    color: darkred;
+    text-align: center;
+    font-family: Copperplate Gothic;
+    background: none;
+}
+.box1
+{
+    height: 450px;
+    width: 700px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 70px;
+    background-image: url(image/alana-lee-portrait-photography-gold-painted-digital-background-example-2.webp);
+    border: 6px solid darkred;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    text-align: center;
+}
+.box1 p
+{
+    font-size: 26px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    color: darkred;
+    background: none;
+}
+.box1 p input
+{
+    font-size: 24px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    color: darkred;
+    border: transparent;
+    background: transparent;
+    border-bottom: 3px solid darkred;
+    outline: none;
+}
+.box1 p input:focus
+{
+    border: transparent;
+    background: transparent;
+    outline: none;
+    border-bottom: 3px solid darkred;
+}
+.box1 p select
+{
+    font-size: 24px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    color: goldenrod;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    padding:2px;
+    background: none;
+    background-color: darkred;
+}
+
+.i1
+{
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    background: none;
+}
+.i1 label
+{
+    font-size: 24px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    color: darkred;
+    background: none;
+}
+input[type="checkbox"]
+{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 28px;
+    background: transparent;
+    border: 2px solid darkred;
+    color: darkred;
+}
+input[type="checkbox"]:after
+{
+    font-family: "Font Awesome 6 Free";
+    content: "\f00c";
+    color: goldenrod;
+    height: 20px;
+    width: 20px;
+    background-color: darkred;
+    font-size: 17px;
+    text-align: center;
+    border:2px solid goldenrod;
+    box-shadow: 0px 4px 14px 1px darkred;
+    font-weight: 900;
+    padding-top: 2px;
+    display:none;
+}
+input[type="checkbox"]:checked::after
+{
+    display: block;
+}
+.box1 button
+{
+    padding: 8px 14px;
+    display: inline;
+    font-size: 20px;
+    margin-top: 17px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    border-radius: 40px;
+    border-color: darkred;
+    background: none;
+    background-color: antiquewhite;
+    color: darkred;
+    transition: all 0.5s ease;
+    box-shadow: black 0px 7px 22px 0px;
+}
+.box1 button:hover
+{
+    padding: 8px 14px;
+    display: inline;
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 40px;
+    border-color: white;
+    background-color: darkred;
+    color: gold;
+}
+.box1 button:active
+{
+    transform: translateY(10px);
+    letter-spacing: 3px;
+    padding: 8px 14px;
+    display: inline;
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    border-radius: 40px;
+    border-color: white;
+    background-color: midnightblue;
+    color: gold;
+}
+.confirm
+{
+    height: 460px;
+    width: 1250px;
+    background-image: url(image/alana-lee-portrait-photography-gold-painted-digital-background-example-2.webp);
+    text-align: center;
+    margin:auto;
+    padding: auto;
+    margin-top: 50px;
+}
+.confirm span
+{
+    position: relative;
+    top: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 32px;
+    background: none;
+    background-color: antiquewhite;
+    box-shadow: black 0px 7px 22px 0px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    color: darkred;
+}
+.confirm table,tr,th,td
+{
+    margin: 90px auto;
+    padding: 16px 26px;
+    border-collapse: collapse;
+    border: 6px solid goldenrod;
+    box-shadow: black 0px 11px 16px 0px;
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    color: darkred;
+    background: none;
+    background-color: antiquewhite;
+}
+table td
+{
+    font-size: 18px; 
+    font-weight: none;
+}
+table th
+{
+    background-color: darkred;
+    color: gold;
+}
+.popup
+{
+    height: 4525px;
+    width: 1310px;
+    background-color: black;
+    position: absolute;
+    top:1px;
+    opacity: 0.8;
+    align-content: center;
+    display: none;
+    transition: all 0.5s ease;
+}
+.cont
+{
+    height: 370px;
+    width: 600px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 3150px;
+    left: 370px;
+    border: 6px solid darkred;
+    border-radius: 30px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    color: darkred;
+    transition: all 0.5s ease;
+    text-align: center;
+    display: none;
+}
+icon[class="fa-solid fa-check"]
+{
+    margin-top: 30px;
+    font-size: 38px;
+    border: 1px solid antiquewhite;
+    color: antiquewhite;
+    background-color: limegreen;
+    border-radius: 100%;
+    padding: 6px 12px;
+}
+.cont button
+{
+    padding: 6px 12px;
+    display: inline;
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    border-radius: 40px;
+    border-color: darkred;
+    background-color: antiquewhite;
+    color: darkred;
+    transition: all 0.5s ease;
+    box-shadow: black 0px px 20px 0px;
+}
+.cont button:hover
+{
+    padding: 6px 12px;
+    display: inline;
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 40px;
+    border-color: white;
+    background-color: darkred;
+    color: gold;
+}
+.cont button:active
+{
+    transform: translateY(10px);
+    letter-spacing: 3px;
+    padding: 6px 12px;
+    display: inline;
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    font-weight: bold;
+    border-radius: 40px;
+    border-color: white;
+    background-color: midnightblue;
+    color: gold;
+}
+
+
+/* Booking Finish */
+
+/* Entry Start */
+
+
+.ent
+{
+    height: 630px;
+    width: 1358px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    bottom: 0%;
+    background-image: url(image/Picsart_24.jpg);
+    background-position: center;
+}
+.Txt
+{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 28px;
+    font-family:  Copperplate Gothic;
+    font-weight: bold;
+    color: darkred;
+    line-height: 40px;
+}
+.ent button
+{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.foot1
+{
+    height: 120px;
+    width: 1338px;
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    background: none;
+}
+.ico1
+{
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+    right: 550px;
+    background: none;
+}
+.bton11,.bton22,.bton33,.bton44
+{
+padding: 3px 6px;
+border-radius: 20px;
+border-color: darkred;
+background: none;
+background-color: white;
+margin-top: 15px;
+transition: all 0.5s ease;
+}
+.bton11:hover,.bton22:hover,.bton33:hover,.bton44:hover
+{
+    box-shadow: darkred 0px 7px 29px 0px;
+    background-color: none;
+    border-color: #ffffff;
+}
+.bton11:active,.bton22:active,.bton33:active,.bton44:active
+{
+box-shadow: darkred 0px 7px 29px 0px;
+background-color: none;
+border-color: #ffffff;
+transform: translateY(10px);
+}
+.c1
+{
+    font-size: 15px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    bottom: 45px;
+    margin-left: 30px;
+    background: none;
+}
+.foot1 h2
+{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    background: none;
+}
+.ent1
+{
+    height: 630px;
+    width: 1358px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    bottom: 0%;
+    background-image: url(image/Log.jpg);
+    background-position: center;
+}
+.ent1 img
+{
+    float: right;
+}
+.ico11
+{
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    margin-left: 1110px;
+    margin-top: -15px;
+    background: none;
+}
+
+
+/* Entry Finish */
+
+/* Login Start */
+
+
+.ent1 h2
+{
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    margin-left: 1180px;
+}
+.c11
+{
+    font-size: 15px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    background: none;
+    margin-left: 1080px;
+    margin-top: -12px;
+}
+.typein
+{
+    height: 270px;
+    width: 520px;
+    border: 0px solid;
+    margin-top: 185px;
+    margin-left: 800px;
+    border-radius: 30px;
+    background-image: url(image/alana-lee-portrait-photography-gold-painted-digital-background-example-2.webp);
+    box-shadow: 0px 7px 10px 2px black;
+}
+.typein label,p
+{ 
+    padding-left: 35px;
+    padding-top: 25px;
+    font-size: 28px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    background: none;
+}
+.typein input
+{
+    font-size: 22px;
+    background-image: none;
+    border-radius: 15px;
+    padding: 3px;
+    padding-left: 25px;
+    padding-right: 0px;
+    margin-left: 10px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+}
+.typein button
+{
+    margin-left: 195px;
+    margin-top: 30px;
+}
+.typein form
+{
+    background: none;
+}
+.foot11 h2,.foot11
+{
+    background: none;
+    margin-top: 45px;
+}
+.bton111,.bton222,.bton333,.bton444
+{
+padding: 3px 6px;
+border-radius: 20px;
+border-color: darkred;
+background: none;
+background-color: white;
+transition: all 0.5s ease;
+}
+.bton111:hover,.bton222:hover,.bton333:hover,.bton444:hover
+{
+    box-shadow: darkred 0px 7px 29px 0px;
+    background-color: none;
+    border-color: #ffffff;
+}
+.bton111:active,.bton222:active,.bton333:active,.bton444:active
+{
+box-shadow: darkred 0px 7px 29px 0px;
+background-color: none;
+border-color: #ffffff;
+transform: translateY(10px);
+}
+
+
+/* Login Finish */
+
+/* Sign-up Start */
+
+
+.signup
+{
+    height: 630px;
+    width: 1358px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    bottom: 0%;
+    background-image: url(image/Now.jpg);
+    background-position: center;
+}
+.signup img
+{
+    float: right;
+    padding-right: 20px;
+    background: none;
+    margin-top: 10px
+}
+.form1
+{
+    height: 390px;
+    width: 520px;
+    background-image: url(image/alana-lee-portrait-photography-gold-painted-digital-background-example-2.webp);
+    margin-top: 160px;
+    margin-left: 780px;
+    border: 0px solid;
+    border-radius: 30px;
+    box-shadow: 0px 8px 8px 3px black;
+}
+.form1 h1
+{
+    font-size: 28px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-top: 20px;
+    background: none;
+}
+.form1 label
+{
+    font-size: 20px;
+    background: none;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    display: inline;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.form1 input
+{
+    font-size: 18px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 3px;
+    padding-left: 15px;
+    margin-top: 15px;
+    background: none;
+    background-color: white;
+}
+.form1 button
+{
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.form1 option
+{
+    font-weight: bold;
+    display: inline-flex;
+    font-size: 18px;
+    font-family: Copperplate Gothic;
+    color: darkred;
+    font-weight: bold;
+    background: none;
+}
+.form1 form
+{
+    background: none;
+}
+
+/* Sign-up Finish */

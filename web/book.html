@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolex</title>
+    <link rel="stylesheet" href="DocST.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="booknow">
+        <div class="bod">
+            <h1>Book Now</h1>
+            <h2>Enter your Details</h2>
+            <div class="box1">
+                <p style="margin-top: 17px;"> Name : <input id="td1"></p>
+                <p>Phone No : <input id="td2"></p>
+                <p>Watch : <select id="td3">
+                    <option>Golden Desert-Model 1</option>
+                    <option>Golden Desert-Model 2</option>
+                    <option>Premium Steel-Model X</option>
+                    <option>Black Mamba-Model S</option>
+                </select></p>
+                <p>Payment Method : <select id="td4">
+                    <option>Net Banking</option>
+                    <option>UPI Pay</option>
+                    <option>Cash-on-Delivery</option>
+                </select></p>
+                <div class="i1">
+                    <input type="checkbox" id="check">
+                    <label for="check">&nbsp;I hereby accept for agreement of buying the watch with consent and i trust the serivce. </label>
+                </div>
+                <button class="btn" onclick="subm()">Submit</button>
+            </div>
+            <section id="order">
+                <div class="confirm">
+                    <span>Order Pending</span>
+                    <table class="tabl">
+                        <tr>
+                            <th>Consumer Name</th>
+                            <th>Phone No</th>
+                            <th>Order Name</th>
+                            <th>Payment</th>
+                            <th id="td6">Status</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="popup"></div>
+                <div class="cont">
+                    <icon class="fa-solid fa-check"></icon>
+                    <h1>Your Order has been Placed</h1>
+                    <h3>Thank You for Purchasing Rolex !!!! <br>You can check the Order details on our website.<br>Have a Nice day!!! </h3> 
+                    <button id="c1" onclick="close1()">Close</button>
+                </div>
+            </section>
+        </div>
+    </section>
+    <script src="linker.js"></script>
+</body>
+</html>
